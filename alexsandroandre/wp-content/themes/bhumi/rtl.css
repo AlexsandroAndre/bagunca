@@ -1,0 +1,299 @@
+/*
+Theme Name: bhumi
+*/
+
+
+/*
+RTL Basics
+*/
+
+body {
+	direction:rtl;
+	unicode-bidi:embed;
+}
+
+/* Main css with editable-------------------------------------------------------------- */
+.navbar-nav {
+float: right;
+}
+a:hover, a:focus{
+	text-decoration: none ;
+}
+.cpm_rtl{float:right}
+.fa-arrow-left:before{content: "\f061" !important;}
+.fa-arrow-right:before{content: "\f060" !important;}
+.glyphicon-chevron-left:before {
+content: "\e080";
+}
+.glyphicon-chevron-right:before {
+content: "\e079";
+}
+.head-contact-info{
+	
+	text-align: left;	
+	padding-right:0;
+}
+.head-contact-info li {
+	
+	margin-left:10px;	
+}
+.head-contact-info li a{color:#fff;}
+.head-contact-info i {
+	margin-left:8px;	
+}
+.logo{
+	text-align:right;
+}
+
+.social{	
+	text-align: left;
+}
+
+/*** Project Or Works  ********************************************************/
+
+.bhumi_home_portfolio_showcase .bhumi_home_portfolio_showcase_icons a { 
+    margin-left: 5px;
+	margin-right:2px;
+}
+.bhumi_project_button a {	
+	text-align: left;
+}
+/********** project detail page css ***************************/
+
+.bhumi-project-description h3{
+	text-align:right;
+}
+.bhumi-project-description h3 span{
+	text-align:right;
+}
+.bhumi-project-description p{
+	text-align:right;
+}
+
+.bhumi_portfolio_detail_pagi{
+	text-align:left;
+	padding-left:0;	
+}
+.bhumi_portfolio_detail_pagi li {
+	float: left;
+	margin-right:15px;
+}
+.bhumi-project-detail-sidebar .launch-bhumi-project a {	
+	text-align: left;	
+}
+.bhumi_project_detail_related_projet .bhumi_carousel-navi {
+float: left;
+}
+.sidebar-img{
+	margin-left: 5px;
+}
+/******* gallery css *************************************************************************/
+.bhumi_gallery_page{	
+	float:right;	
+}
+
+.bhumi_gallery_blog{	
+	float: right;
+}
+
+.bhumi_gallery_showcase .bhumi_gallery_showcase_icons a {  
+    margin-right: 2px;
+	margin-left:5px;	
+}
+/***************** BLog Section ************************************************************/ 
+.bhumi_blog_thumb_wrapper h2 {	
+	padding-left: 0px;
+}
+
+.bhumi_blog_thumb_date{	
+	text-align:right;
+	padding-right:0;
+}
+.bhumi_blog_thumb_date li{	
+	margin-left:15px;
+}
+.bhumi_blog_thumb_date li i{
+	margin-left:8px;
+}
+.bhumi_blog_thumb_wrapper p{	
+	padding-left:8px;
+}
+.bhumi_blog_thumb_wrapper span a i{
+	margin-left:6px;
+}
+.bhumi_tags a i{
+	margin-left:5px;
+}
+
+.bhumi_blog_thumb_wrapper_showcase .bhumi_blog_thumb_wrapper_showcase_icons a {
+    margin-right: 2px;
+	margin-left:5px;	
+}
+
+/********* Blog Full width css ********/
+
+.blog-date-left{	
+	float:right;
+}
+.blog-date-right{	
+	float:left;
+}
+
+.bhumi_post_date {	
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.bhumi_blog_comment{
+	padding-left:10px;
+	padding-right:10px;
+}
+.post-content-wrap {
+	float: right;
+
+}
+
+.post-content-wrap-right {
+	float: left;
+
+}
+
+.bhumi_blog_post_content{
+	float: left;	
+}
+.bhumi_full_blog_detail_padding{
+	padding-left: 20px;
+	float: left;
+}
+.bhumi_full_blog_detail_padding h2 a{
+	padding-left: 0px;
+}
+/***** Blog page with sidebar ******************/
+.bhumi_recent_widget_post_move{
+	float: left;
+}
+.bhumi_recent_widget_post_img {
+    margin-left: 10px !important;
+	
+}
+
+.bhumi_sidebar_widget_title{
+	margin-left: -20px;
+	margin-right: -20px;	
+}
+/**** link widget **/   
+.bhumi_sidebar_widget ul li a:before , .bhumi_footer_widget_column ul li a:before {
+        position:absolute;
+        font-family: FontAwesome;
+        top:0;
+        left:-14px;
+        content: "\f105";
+}
+.bhumi_sidebar_widget ul li ,.bhumi_footer_widget_column ul#recentcomments li {list-style:none;}
+.bhumi_sidebar_widget ul li a{ padding-left: 10px; }
+.bhumi_sidebar_link p a i {
+	margin-left: 10px;
+}
+/*** Flickr widget **/
+.flickr-photos-list {
+	padding-right: 0;
+}
+.flickr-photos-list > li {
+	float: right;
+	margin-right: 5px;
+}
+.bhumi_sidebar_left_side{
+
+float:left;
+
+}
+.bhumi_blog_right_side{
+	float:left;
+}
+
+
+/********* Blog detail page *************/
+.author_detail_img{
+	float:right;
+	margin-right:20px;
+	
+}
+
+.bhumi_comment_title h3 {
+    padding-left: 10px;
+}
+.pull_left_comment{
+	margin-left: 15px;
+	float: left;
+}
+
+.bhumi_comment_detail {
+    margin-left: 0px;
+
+}
+.reply a > i {
+	padding-left: 5px;	
+}
+/***Client Section ******************************************************************************************************
+**************************************************************************************************************************/
+
+
+.bhumi_client_area .bhumi_heading_title2{
+	text-align:left;
+}
+
+.bhumi_client_prev {
+	margin-left: 5px;	
+}
+
+
+
+/***** Call Out Section *******************************/
+
+.bhumi_callout_btn {
+	float: left;	
+}
+.bhumi_callout_area a {  
+	text-align: left;	
+}
+
+/***** Footer widget Area *****************************************************************
+***************************************************************************************/
+.bhumi_footer_widget_column address p i{
+	margin-left:10px;
+}
+
+
+/* Footer area Section Css------------------------------------------------------------ */
+
+
+.bhumi_footer_copyright_info{
+	float:left;
+}
+.bhumi_footer_social_div{
+	float:left;
+}
+/***********theme required css **********/
+.alignright{ text-align:right;float: right;
+}
+.alignleft {
+float: right;
+margin-left: 1.5em;
+}
+table.table, table {text-align: right;}
+.bhumi_footer_widget_column ul {padding-right:0;}
+.post-content-wrap-right .bhumi_full_blog_detail_padding{
+	padding-left: 20px;
+}
+
+/*Flikr Widget CSS**/
+.bhumi-sidebar .flickr_badge_image {
+    float: right;
+}
+.bhumi_footer_widget_column .flickr_badge_image {
+    float: right;
+    margin-right: 5px;
+}
+.nav-next {
+	padding-right: 15%;  
+}

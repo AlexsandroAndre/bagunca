@@ -1,0 +1,24 @@
+.custom_preview_image {
+    width: 300px;
+}
+
+#teeoptimize_custom_campaign_url {
+    width:100%;
+}
+
+#teeoptimize_custom_redirect_url {
+    width:100%;
+}
+
+#teeoptimize_custom_end_date {
+    width:150px;
+}
+
+textarea#teeoptimize_custom_popup_message, textarea#teeoptimize_custom_header_code, textarea#teeoptimize_custom_footer_code {
+    width:100%;
+}
+
+.field-error-class {
+    color:#FF0000;  /* red */
+	border-color: red !important;
+}

@@ -1,0 +1,686 @@
+@media (min-width:1200px) {
+	.bhumi_gallery_page .col-md-3{
+	width:25%;
+	}
+	.navbar {
+	margin-bottom: 0px;
+
+	}
+	#bhumi_nav_top.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+	border-bottom: 0;
+	z-index: 9999;
+	}
+	.admin-bar #bhumi_nav_top.affix{
+		top: 32px;
+	}
+
+	.carousel-caption {
+	top: 25%;
+	}
+	.boxed .carousel-caption {
+	top: 20%;
+	}
+
+}
+@media (max-width: 991px){
+	.logo img{
+		margin: 5px auto 15px;
+	}
+	.social{
+		text-align: center !important;
+	}
+	.head-contact-info{
+		text-align: center !important;
+	}
+	.logo{
+		text-align: center !important;
+	}
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+	#bhumi_nav_top.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+	border-bottom: 2px solid #F7F5F5;
+	z-index: 99997;
+	left: 0;
+	}
+
+}
+
+/* This Media screen css called for All Hc Pages Element---------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 960px) and (max-width: 1200px) {
+
+	.bhumi_gallery_page .col-md-3{
+		width:25%;
+	}
+	.post-content-wrap {
+		width:83%;
+	}
+	.post-content-wrap-right {
+		width:83%;
+	}
+	.navbar {
+	margin-bottom: 0px;
+
+	}
+	#bhumi_nav_top.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+	border-bottom: 2px solid #F7F5F5;
+	z-index: 99997;
+	left: 0;
+	}
+	.bhumi_gallery_blog{
+	width: 33.3%;
+	margin-right: 0;
+	margin-bottom: 0;
+	float: left;
+	}
+
+}
+@media only screen and (min-width: 767px) and (max-width: 992px) {
+.logo{
+	text-align:center;
+	padding-top:15px;
+	padding-bottom:0px;
+	}
+	.head-contact-info{
+	display: block;
+	text-align: center;
+	padding-top:5px;
+	padding-bottom:2px;
+	padding-left:0;
+}
+
+	.social{
+	display: block;
+	text-align: center;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left: 0px;
+	}
+	.navbar-default .navbar-nav > li > a{
+	color: #000;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-family: 'Arimo',Arial, Helvetica, sans-serif;
+	font-size:15px;
+	}
+	.navbar {
+		margin-bottom: 0px;
+
+	}
+	#bhumi_nav_top.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+	border-bottom: 2px solid #F7F5F5;
+	z-index: 99997;
+	left: 0;
+	}
+	.carousel-caption{
+	top:40px;
+	}
+	.carousel-text h1 {
+	font-size: 1.4em;
+	padding:10px;
+	}
+	.carousel-list li {
+	color: #fff;
+	font-size: 0.9em;
+	margin-bottom: 10px;
+	overflow: hidden;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	}
+	.carousel-list {
+	top: 60px;
+	margin: 0px auto;
+	}
+	.bhumi_callout_area{
+		text-align:center;
+	}
+	.bhumi_callout_area p{
+		margin-bottom:20px;
+		padding:0px;
+	}
+	.bhumi_callout_btn {
+	float: none;
+	}
+
+	/*** blog full width **/
+	.bhumi_sidebar_left_side{
+
+	float:none;
+
+	}
+	.bhumi_blog_right_side{
+	float:none;
+	}
+	.post-content-wrap {
+	width:100%;
+	}
+	.post-content-wrap-right {
+	width:100%;
+	}
+	.blog-date-left{
+		display:flex;
+		margin-bottom: 0px;
+	}
+	.blog-date-right{
+		display:flex;
+		margin-bottom: 0px;
+	}
+
+	.bhumi_full_blog_detail_padding {
+		padding-left: 0px;
+		padding-top:20px;
+	}
+	.bhumi_blog_full .bhumi_blog_thumb_wrapper_showcase {
+		margin-bottom: 0px;
+	}
+	.navbar-collapse {
+     max-height: none;
+	 }
+	 .bhumi_project_section .caroufredsel_wrapper{
+		height: 350px !important;
+	 }
+	 .bhumi_client_area .caroufredsel_wrapper{
+		height: 250px !important;
+	 }
+	 .bhumi_project_detail_related_projet .caroufredsel_wrapper{
+		height: 350px !important;
+	 }
+	 /** bhumi footer  copyright area ***/
+	 .bhumi_footer_area{
+	 text-align:center;
+	 }
+	 .bhumi_footer_copyright_info{
+		float:none;
+	}
+	.bhumi_footer_social_div{
+		float:none;
+	}
+	/** contact us page **/
+	.bhumi_contact_form_fields{
+	padding-right: 15px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-right: 0px solid #E5E5E5;
+	}
+	.bhumi_contact_info{
+		padding-left: 15px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	/* gallery */
+	.bhumi_gallery_blog{
+	width: 33.3%;
+	margin-right: 0;
+	margin-bottom: 0;
+	float: left;
+	}
+	.carousel-indicators{
+		display:none;
+	}
+	.carousel-text .bhumi_blog_read_btn{
+		display:none;
+	}
+	.carousel-caption {
+	top: 20%;
+	}
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.dropdown-menu{
+width:100%;
+float:none;
+position:static !important;
+}
+.logo{
+	text-align:center;
+	padding-top:15px;
+	padding-bottom:0px;
+	}
+	.head-contact-info{
+	display: block;
+	text-align: center;
+	padding-top:5px;
+	padding-bottom:2px;
+	padding-left:0;
+}
+	.social{
+	display: block;
+	text-align: center;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left: 0px;
+	}
+	.carousel-caption{
+	top:15px;
+	}
+	.carousel-text h1 {
+	font-size: 1.2em;
+	padding:10px;
+	}
+	.carousel-list li {
+	color: #fff;
+	font-size: 12px;
+	line-height:16px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	font-family: 'Abel',sans-serif;
+	text-transform: uppercase;
+	}
+	.carousel-list {
+	top: 60px;
+	margin: 0px auto;
+	}
+
+	.bhumi_callout_area{
+		text-align:center;
+	}
+	.bhumi_callout_area p{
+		margin-bottom:20px;
+		padding:0px;
+	}
+	.bhumi_callout_btn {
+	float: none;
+	}
+	/**** blog full width: ***/
+	.bhumi_sidebar_left_side{
+
+		float:none;
+
+	}
+	.bhumi_blog_right_side{
+		float:none;
+	}
+
+	.post-content-wrap {
+	width:100%;
+	}
+	.post-content-wrap-right {
+	width:100%;
+	}
+	.blog-date-left{
+		display:flex;
+		margin-bottom: 0px;
+	}
+	.blog-date-right{
+		display:flex;
+		margin-bottom: 0px;
+	}
+	.bhumi_full_blog_detail_padding {
+		padding-left: 0px;
+		padding-top:20px;
+	}
+	.bhumi_blog_full .bhumi_blog_thumb_wrapper_showcase {
+		margin-bottom: 0px;
+	}
+	.navbar-collapse {
+     max-height: none;
+	 }
+	 .bhumi_project_section .caroufredsel_wrapper{
+		height: 350px !important;
+	 }
+	 .bhumi_client_area .caroufredsel_wrapper{
+		height: 260px !important;
+	 }
+	 .bhumi_project_detail_related_projet .caroufredsel_wrapper{
+		height: 350px !important;
+	 }
+
+	/*** comment section **/
+	.bhumi_comment_box .media-body {
+	float: left;
+	}
+	/** bhumi footer  copyright area ***/
+	 .bhumi_footer_area{
+	 text-align:center;
+	 }
+	 .bhumi_footer_copyright_info{
+		float:none;
+	}
+	.bhumi_footer_social_div{
+		float:none;
+	}
+	/** contact us page **/
+	.bhumi_contact_form_fields{
+	padding-right: 15px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-right: 0px solid #E5E5E5;
+	}
+	.bhumi_contact_info{
+		padding-left: 15px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	/* gallery */
+	.bhumi_gallery_blog{
+	width: 49.9%;
+	margin-right: 0;
+	margin-bottom: 0;
+	float: left;
+	}
+	.carousel-indicators{
+		display:none;
+	}
+	.carousel-text .bhumi_blog_read_btn{
+		display:none;
+	}
+	.carousel-caption {
+	top: 20%;
+	}
+}
+
+@media only screen and (min-width: 200px) and (max-width: 600px) {
+.dropdown-menu{
+width:100%;
+float:none;
+position:static !important;
+}
+	/*.carousel-list li {	display:none; } */
+.carousel-text h1 {
+margin: 0 0 0px 0;
+padding: 5px;
+font-size: 7px;
+font-family: 'Open Sans', sans-serif;
+color: #fff;
+text-transform: uppercase;
+text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+line-height: .line-height: 8px;;
+}
+.carousel-text .bhumi_blog_read_btn {
+font-size: 7px;
+display: inline-block;
+padding: 3px;;
+}
+
+
+	.carousel-list li {
+	font-size: 7px;
+overflow: hidden;
+padding: 5px;
+line-height: 8px;
+display: block;
+	color: #fff;
+	font-size: 8px;
+	line-height:8px;
+	margin-bottom: 5px;
+	overflow: hidden;
+	font-family: 'Abel',sans-serif;
+	text-transform: uppercase;
+	}
+
+	/* .carousel-caption{
+	top:10px;
+	} */
+
+
+	/*** blog full width **/
+	.bhumi_sidebar_left_side{
+
+	float:none;
+
+	}
+	.bhumi_blog_right_side{
+	float:none;
+	}
+
+	.blog-date-left{
+		display:flex;
+		margin-bottom: 0px;
+	}
+
+	.blog-date-right{
+		display:flex;
+		margin-bottom: 0px;
+	}
+
+	.post-content-wrap {
+	width:100%;
+	}
+	.post-content-wrap-right {
+	width:100%;
+	}
+	.bhumi_full_blog_detail_padding {
+		padding-left: 0px;
+		padding-top:20px;
+	}
+	.bhumi_blog_full .bhumi_blog_thumb_wrapper_showcase {
+		margin-bottom: 0px;
+	}
+	.navbar-collapse {
+     max-height: none;
+	 }
+	.bhumi_project_section .caroufredsel_wrapper{
+		height: 400px !important;
+	 }
+	 .bhumi_project_detail_related_projet .caroufredsel_wrapper{
+		height: 400px !important;
+	 }
+	 /** bhumi footer  copyright area ***/
+	 .bhumi_footer_area{
+	 text-align:center;
+	 }
+	 .bhumi_footer_copyright_info{
+		float:none;
+	}
+	.bhumi_footer_social_div{
+		float:none;
+	}
+	/** contact us page **/
+	.bhumi_contact_form_fields{
+	padding-right: 15px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-right: 0px solid #E5E5E5;
+	}
+	.bhumi_contact_info{
+		padding-left: 15px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.carousel-indicators{
+		display:none;
+	}
+	.carousel-caption {
+	top: 20%;
+	}
+}
+@media only screen and (min-width: 480px) and (max-width: 600px) {
+	.bhumi_project_section .caroufredsel_wrapper{
+		height: 450px !important;
+	 }
+	 .bhumi_client_area .caroufredsel_wrapper{
+		height: 300px !important;
+	 }
+	 .bhumi_project_detail_related_projet .caroufredsel_wrapper{
+		height: 450px !important;
+	 }
+	 .carousel-indicators{
+		display:none;
+	}
+
+}
+@media only screen and (min-width: 200px) and (max-width: 480px) {
+  .head-contact-info li {
+  float: left;
+  padding-bottom: 5px;
+  width: 100%;
+}
+
+.logo{
+	text-align:center;
+	padding-top:15px;
+	padding-bottom:0px;
+	}
+	.head-contact-info{
+	display: block;
+	text-align: center;
+	padding-top:5px;
+	padding-bottom:2px;
+	padding-left:0;
+	}
+	.social{
+	display: block;
+	text-align: center;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left: 0px;
+	}
+	.carousel-text h1 {
+	margin-top: -10px;
+	font-size: 0.8em;
+	}
+	/* .carousel-list li {	display:none;	} */
+	.carousel-list li {
+	color: #fff;
+	font-size: 8px;
+	line-height:8px;
+	margin-bottom: 5px;
+	overflow: hidden;
+	font-family: 'Abel',sans-serif;
+	text-transform: uppercase;
+	}
+
+	.carousel-caption{
+	top:10px;
+	}
+	.carousel-indicators{
+		display:none;
+	}
+	.bhumi_callout_area{
+		text-align:center;
+	}
+	.bhumi_callout_area p{
+		margin-bottom:20px;
+		padding:0px;
+	}
+	.bhumi_callout_btn {
+	float: none;
+	}
+	.bhumi_sidebar_left_side{
+
+	float:none;
+
+	}
+	.bhumi_blog_right_side{
+	float:none;
+	}
+	/** blog full width ***/
+
+	.post-content-wrap {
+	width:100%;
+	}
+	.post-content-wrap-right {
+	width:100%;
+	}
+
+	.blog-date-left{
+		display:flex;
+		margin-bottom: 0px;
+	}
+	.blog-date-left li{
+		width:60px;
+		height:60px;
+	}
+
+	.blog-date-right{
+		display:flex;
+		margin-bottom: 0px;
+	}
+	.blog-date-right li{
+		width:60px;
+		height:60px;
+	}
+	.bhumi_post_date {
+		padding-top: 6px;
+		padding-left:2px;
+		padding-right:2px;
+		padding-bottom: 4px;
+	}
+	.bhumi_post_date span.date {
+		font-size: 30px;
+		line-height: 25px;
+	}
+	.bhumi_post_date h6 {
+		font-size: 10px;
+		line-height: 10px;
+		margin-top: 4px;
+	}
+	.bhumi_post_author img {
+		height: 60px !important;
+	}
+
+	.bhumi_blog_comment{
+		width: 60px;
+		padding-top: 6px;
+		padding-left:2px;
+		padding-right:2px;
+		padding-bottom: 6px;
+	}
+	.bhumi_blog_comment a{
+		color:#999999;
+	}
+	.bhumi_blog_comment i{
+		font-size: 30px;
+		line-height: 25px;
+
+
+	}
+	.bhumi_blog_comment h6{
+		font-size:12px;
+		margin-top:4px;
+
+	}
+	.bhumi_full_blog_detail_padding {
+		padding-left: 0px;
+		padding-top:20px;
+	}
+	.bhumi_blog_full .bhumi_blog_thumb_wrapper_showcase {
+		margin-bottom: 0px;
+	}
+		.navbar-collapse {
+     max-height: none;
+	 }
+	.bhumi_client_area .caroufredsel_wrapper{
+		height: 300px !important;
+	}
+
+	/*** comment section **/
+	.bhumi_comment_box .media-body {
+	float: left;
+	}
+	/** bhumi footer  copyright area ***/
+	 .bhumi_footer_area{
+	 text-align:center;
+	 }
+	 .bhumi_footer_copyright_info{
+		float:none;
+	}
+	.bhumi_footer_social_div{
+		float:none;
+	}
+	/* gallery */
+	.bhumi_gallery_blog{
+	width: 100%;
+	margin-right: 0;
+	margin-bottom: 0;
+	float: left;
+	}
+	.carousel-text .bhumi_blog_read_btn{
+		display:none;
+	}
+}

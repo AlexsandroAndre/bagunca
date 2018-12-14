@@ -1,0 +1,271 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Affiliate Link Manager 2.0\n"
+"POT-Creation-Date: 2015-02-09 18:10-0300\n"
+"PO-Revision-Date: 2015-02-09 18:11-0300\n"
+"Last-Translator: Anderson <andersonmaki@gmail.com>\n"
+"Language-Team: andersonmakiyama <andersonmaki@gmail.com>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-KeywordsList: gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: C:\\wamp\\www\\wp-content\\plugins\\hot-links-plus\\\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: templates\n"
+
+#: index.php:177
+msgid "Settings"
+msgstr "Configurações"
+
+#: index.php:208 templates/links.php:53
+msgid "My Links"
+msgstr "Meus Links"
+
+#: index.php:210
+msgid "Report"
+msgstr "Relatório"
+
+#: index.php:214
+msgid "Add Links"
+msgstr "Adicione Links"
+
+#: index.php:361
+msgid "Direct Access"
+msgstr "Acesso Direto"
+
+#: templates/addlinks.php:38
+msgid "Thank You! The Code is OK!"
+msgstr "Obrigado! Código Aceito!"
+
+#: templates/addlinks.php:42 templates/addlinks.php:148
+msgid "OOPS! The Code is not OK!"
+msgstr "OOPS! Código Incorreto!"
+
+#: templates/addlinks.php:71 templates/edit-link.php:50
+msgid "Affiliate url and keyword cannot be empty!"
+msgstr "Url do Afiliado e palavra-chave não precisam ser preenchidas!"
+
+#: templates/addlinks.php:92 templates/edit-link.php:73
+msgid "The Keyword already exists!"
+msgstr "A palavra-chave já existe!"
+
+#: templates/addlinks.php:113 templates/edit-link.php:94
+msgid "There is a Post or Page using this URL! Try another Keyword!"
+msgstr "Existe um Post ou Página usando este URL! Tente outra palavra-chave!"
+
+#: templates/addlinks.php:167 templates/edit-link.php:153
+msgid "Add new Affiliate Links"
+msgstr "Adicione novos links de afiliado"
+
+#: templates/addlinks.php:183
+msgid "Ativation"
+msgstr "Ativação"
+
+#: templates/addlinks.php:187
+msgid "Enter the Secret Code"
+msgstr "Digite o código Secreto"
+
+#: templates/addlinks.php:191
+msgid "Activate"
+msgstr "Ativar"
+
+#: templates/addlinks.php:212 templates/edit-link.php:176
+msgid "Basic Options"
+msgstr "Opções Básicas"
+
+#: templates/addlinks.php:216 templates/edit-link.php:180
+msgid "Enter some affiliate url and its respective keyword"
+msgstr "Digite algum url de afiliado e sua respectiva palavra-chave"
+
+#: templates/addlinks.php:221 templates/edit-link.php:185
+#: templates/links.php:70 templates/links.php:115
+msgid "Link Name"
+msgstr "Nome do Link"
+
+#: templates/addlinks.php:222 templates/edit-link.php:186
+#, fuzzy
+msgid "Just for identification, will not be published."
+msgstr "Só para sua informação pessoal. Não será publicado!"
+
+#: templates/addlinks.php:228 templates/edit-link.php:192
+msgid "Affiliate url"
+msgstr "Url de Afiliado"
+
+#: templates/addlinks.php:232 templates/edit-link.php:196
+#: templates/report.php:58 templates/report.php:92
+msgid "Keyword"
+msgstr "Palavra-chave"
+
+#: templates/addlinks.php:232 templates/edit-link.php:196
+msgid "Just numbers an letters"
+msgstr "Somente números e letras"
+
+#: templates/addlinks.php:249 templates/edit-link.php:213
+msgid "Description"
+msgstr "Descrição"
+
+#: templates/addlinks.php:249 templates/edit-link.php:213
+msgid "Just for your own information. It will not be published!"
+msgstr "Só para sua informação pessoal. Não será publicado!"
+
+#: templates/addlinks.php:253 templates/edit-link.php:217
+msgid "Facebook Conversion Tracking Pixel"
+msgstr "Pixel de Conversão do Facebook"
+
+#: templates/addlinks.php:262 templates/edit-link.php:226
+msgid "Optional Advanced Options"
+msgstr "Opções Avançadas Opcionais"
+
+#: templates/addlinks.php:267 templates/edit-link.php:231
+msgid "Auto Create Links"
+msgstr "Criar Links Automaticamente"
+
+#: templates/addlinks.php:270 templates/addlinks.php:297
+#: templates/edit-link.php:234 templates/edit-link.php:263
+msgid "No"
+msgstr "Não"
+
+#: templates/addlinks.php:271 templates/addlinks.php:298
+#: templates/edit-link.php:235 templates/edit-link.php:264
+msgid "Yes"
+msgstr "Sim"
+
+#: templates/addlinks.php:274 templates/edit-link.php:238
+msgid "Word/Phrase to be Replaced"
+msgstr "Palavra/Frase para ser substituída"
+
+#: templates/addlinks.php:276 templates/edit-link.php:240
+msgid "Max replaces Per Page"
+msgstr "Limite de Links por Página"
+
+#: templates/addlinks.php:294 templates/edit-link.php:260
+msgid "Display popup on Mouseover"
+msgstr "Exibir Popup quando passar o Mouse"
+
+#: templates/addlinks.php:303 templates/edit-link.php:269
+msgid "Text/Image to be Displayed in Popup"
+msgstr "Texto/Imagem para ser exibido no Popup"
+
+#: templates/addlinks.php:314
+msgid "Add"
+msgstr "Adicionar"
+
+#: templates/addlinks.php:386 templates/edit-link.php:350
+msgid "Author"
+msgstr "Autor"
+
+#: templates/addlinks.php:394 templates/edit-link.php:358
+msgid "Author's email"
+msgstr "Email do Autor"
+
+#: templates/addlinks.php:402 templates/edit-link.php:366
+msgid "Visit the Plugin page"
+msgstr "Visite a página do Plugin"
+
+#: templates/addlinks.php:414 templates/edit-link.php:378
+msgid "Visit the author's site"
+msgstr "Visite o site do Autor"
+
+#: templates/edit-link.php:123
+msgid "Link Updated"
+msgstr "Link Atualizado"
+
+#: templates/edit-link.php:280
+msgid "Update"
+msgstr "Atualizar"
+
+#: templates/links.php:60
+msgid "Your Affiliate Links"
+msgstr "Seus Links de Afiliado"
+
+#: templates/links.php:73 templates/links.php:118
+msgid "Link for Share"
+msgstr "Link para Compartilhar"
+
+#: templates/links.php:76 templates/links.php:121
+msgid "Target Url"
+msgstr "Url Destino"
+
+#: templates/links.php:79 templates/links.php:124
+msgid "Total Access"
+msgstr "Total de Acessos"
+
+#: templates/links.php:105
+msgid "Edit"
+msgstr "Editar"
+
+#: templates/links.php:106
+msgid "Delete"
+msgstr "Excluir"
+
+#: templates/report.php:41
+msgid "Clicks/Access Report"
+msgstr "Relatório de Cliques/Acessos"
+
+#: templates/report.php:48
+#, fuzzy
+msgid "Last 1000 Access"
+msgstr "Últimas 1000 visualizações"
+
+#: templates/report.php:61 templates/report.php:95
+msgid "Date and Time"
+msgstr "Data e Horário"
+
+#: templates/report.php:65 templates/report.php:99
+msgid "Origin"
+msgstr "Origem"
+
+#~ msgid "Help"
+#~ msgstr "Ajuda"
+
+#~ msgid "For more help and more details, visit the plugin page"
+#~ msgstr "Para mais ajuda e mais detalhes, visite a página do plugin"
+
+#~ msgid "Link"
+#~ msgstr "Link"
+
+#~ msgid "Help page"
+#~ msgstr "Página de Ajuda"
+
+#~ msgid "The Link has been updated successfully!"
+#~ msgstr "Links atualizados com sucesso!"
+
+#~ msgid "Set up the plugin Options at this page"
+#~ msgstr "Configure as opções do plugin nesta página"
+
+#~ msgid "Reports"
+#~ msgstr "Relatórios"
+
+#~ msgid "See the reports on this page:"
+#~ msgstr "Veja os relatórios nesta página:"
+
+#~ msgid "All Affiliate Urls"
+#~ msgstr "Todos os Urls de Afiliados"
+
+#~ msgid "Views"
+#~ msgstr "Visualizações"
+
+#~ msgid "Affiliate Url"
+#~ msgstr "Url de Afiliado"
+
+#~ msgid "Take a Look!"
+#~ msgstr "Dê uma Olhada!"
+
+#~ msgid "Best Wordpress Themes"
+#~ msgstr "Melhores Temas Wordpress"
+
+#, fuzzy
+#~ msgid "Best Autoresponder for Email Marketing"
+#~ msgstr "Melhor Autoresponder para Email Marketing"
+
+#~ msgid "The Affiliate Url already exists!"
+#~ msgstr "O url de afiliado já existe!"
+
+#~ msgid "Best Web Hosting for Wordpress"
+#~ msgstr "Melhor hospedagem de sites para Wordpress"
+
+#~ msgid "http://plugin-wp.net/aff_hostgator"
+#~ msgstr "http://plugin-wp.net/aff_hostgator_br"

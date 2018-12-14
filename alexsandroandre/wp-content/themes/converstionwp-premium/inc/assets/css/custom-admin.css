@@ -1,0 +1,64 @@
+/**
+ * Custom login styles.
+ */
+.login h1 a {
+	background: url('../images/logo-login.png') center top no-repeat !important;
+	background: url('../images/logo-login.svg') center top no-repeat !important;
+	background-size: 80px 80px !important;
+	height: 80px !important;
+	width: 80px !important;
+}
+
+/**
+ * Custom admin styles.
+ */
+#footer-upgrade {
+	visibility: hidden !important;
+}
+
+#footer-left {
+	float: right !important;
+}
+
+#contextual-help-link-wrap,
+#wp-version-message,
+#normal-sortables #dashboard_right_now .inside .versions p {
+	display: none !important;
+}
+
+.fa-hover{
+    text-align: center;
+    margin: 10px; 
+    padding: 10px 0px; 
+    border: 1px solid white;
+    max-height: 77px;
+}
+.fa-hover a{
+    color: #333;
+}
+
+.fa-hover i{
+    font-size: 60px;
+    display: block;
+}
+.fa-hover:hover{
+    background: #eee;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+#data{
+    max-width: 800px;
+    max-height: 350px;
+}
+.escolher-icone{font-size: 20px;}
+
+.wp-admin select{max-width: 100%;}
+
+.titulo-top-artigos{
+    width: 100%;
+}
+
+body{
+	background: #f1f1f1 !important;
+}

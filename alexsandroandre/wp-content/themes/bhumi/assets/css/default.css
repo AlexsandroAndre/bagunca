@@ -1,0 +1,556 @@
+a{
+    color: #A13F40;
+}
+a:hover, a:focus{
+    color: #933637;
+}
+#wrapper{
+	background: #ffffff;
+}
+/*  header contact info section ***/
+.header_section{
+	background-color:#A13F40;
+	color:#fff;
+	padding: 15px 0;
+}
+/** navbar menus ***/
+.navigation_menu{
+	background-color: #fff;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus,
+.dropdown-menu .active a {
+	background-color: #A13F40;
+}
+.collapse ul.nav li.current-menu-parent .dropdown-toggle, .collapse ul.nav li.current-menu-item .dropdown-toggle,
+.navbar-default .navbar-collapse ul.nav li.current-menu-parent .dropdown-toggle,.navbar-default .navbar-collapse ul.nav li.current-menu-item .dropdown-toggle
+.collapse ul.nav li.current_page_ancestor .dropdown-toggle,.collapse ul.nav li.current_page_ancestor .dropdown-toggle,
+.navbar-default .navbar-collapse ul.nav li.current_page_ancestor .dropdown-toggle,.navbar-default .navbar-collapse ul.nav li.current_page_ancestor .dropdown-toggle
+{
+	background-color: #A13F40;
+	box-shadow: 3px 3px 0 rgba(201, 201, 201, 1);
+	color: #fff !important;
+	border-radius:0px;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+	background-color: #A13F40;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	background-color: #A13F40;
+}
+
+.dropdown-menu {
+	background-color: #A13F40;
+	background-color: rgba(161, 63, 64, 0.9);
+}
+/** headings titles css ***/
+.bhumi_heading_title h3 {
+	border-bottom: 4px solid #A13F40;
+	color: #3b3b3b;
+}
+.bhumi_heading_title2 h3 {
+	border-bottom: 2px solid #A13F40;
+	color: #3b3b3b;
+}
+/** slider css ***/
+.carousel-list li {
+	background:rgba(161, 63, 64, 0.8);
+}
+
+
+/****************portfolio css ********************************************************
+********************************************************************************/
+
+.bhumi_home_portfolio_showcase .bhumi_home_portfolio_showcase_icons a {
+	background-color: #A13F40;
+	color:#fff;
+}
+.bhumi_home_portfolio_showcase .bhumi_home_portfolio_showcase_icons a:hover{
+	background-color: #ffffff;
+	color:#A13F40;
+}
+.bhumi_home_portfolio_caption {
+	border-left:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	border-right:1px solid #ccc;
+}
+
+.bhumi_home_portfolio_caption:hover{
+    background: #A13F40;
+}
+.bhumi_home_portfolio_caption:hover  h3 a ,.bhumi_home_portfolio_caption:hover  small{
+   color: #ffffff;
+}
+.img-wrapper:hover .bhumi_home_portfolio_caption{
+    background: #A13F40;
+    border-left:1px solid #A13F40;
+	border-bottom:1px solid #A13F40;
+	border-right:1px solid #A13F40;
+}
+.img-wrapper:hover .bhumi_home_portfolio_caption  h3 a,.img-wrapper:hover .bhumi_home_portfolio_caption  small{
+ color: #ffffff;
+}
+
+.bhumi_project_button a {
+	background-color: #f8504b;
+	color: #FFFFFF;
+	border: 2px solid #A13F40;
+	transition: all 0.4s ease 0s;
+}
+.bhumi_project_button a:hover {
+	background-color: #ffffff;
+	color: #A13F40;
+	border: 2px solid #A13F40;
+	text-decoration:none;
+
+}
+
+
+.bhumi_carousel-prev, .bhumi_carousel-next {
+    background-color: #fff;
+	border: 2px solid #A13F40;
+}
+.bhumi_carousel-prev:hover, .bhumi_carousel-next:hover {
+    background-color: #A13F40;
+	color:#fff;
+}
+.bhumi_carousel-prev:hover i, .bhumi_carousel-next:hover i{
+    color:#fff;
+}
+.bhumi_carousel-prev i,
+.bhumi_carousel-next i {
+	color: #A13F40;
+}
+
+/*** project detail ***/
+.bhumi_portfolio_detail_pagi li a {
+	color: #404040;
+	border:2px solid #A13F40;
+	text-align:center;
+	background-size: 100% 200%;
+    background-image: linear-gradient(to bottom, #A13F40 50%, #ffffff 50%);
+   -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+
+}
+.bhumi_portfolio_detail_pagi li a:hover {
+	color: #404040;
+	border:2px solid #A13F40;
+	background-position: 0 -100%;
+}
+
+.bhumi_portfolio_detail_pagi li a span{
+	color:#fff;
+	line-height:35px;
+}
+.bhumi_portfolio_detail_pagi li a:hover span{
+	color:31A3DD;
+}
+.bhumi-project-detail-sidebar p small {
+	color:#777777;
+
+}
+
+.bhumi-project-detail-sidebar .launch-bhumi-project a {
+
+	color: #ffffff;
+	border: 2px solid #A13F40;
+	background-size: 100% 200%;
+    background-image: linear-gradient(to bottom, #A13F40 50%, #ffffff 50%);
+   -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+}
+.bhumi-project-detail-sidebar .launch-bhumi-project a:hover {
+	background-color: #ffffff;
+	color: #A13F40;
+	border: 2px solid #A13F40;
+	background-position: 0 -100%;
+}
+
+/** gallery css **/
+
+.bhumi_gallery_showcase .bhumi_gallery_showcase_icons a {
+	background-color: #A13F40;
+	border:2px solid #A13F40;
+	color:#fff;
+}
+
+.bhumi_gallery_showcase .bhumi_gallery_showcase_icons a:hover{
+	background-color: #ffffff;
+	border:2px solid #A13F40;
+	color:#A13F40;
+}
+
+
+/**************** blog css ********************************************************
+********************************************************************************/
+
+/** blog thumbnail css **/
+.bhumi_blog_thumb_wrapper{
+	background:#fff;
+	box-shadow: 0 0px 3px 2px rgba(0,0,0,.1);
+}
+.bhumi_blog_thumb_wrapper h2 a{
+	color:#A13F40;
+	transition: all 0.4s ease 0s;
+}
+.bhumi_blog_thumb_wrapper h2:hover a{
+	color:#A13F40;
+}
+.bhumi_blog_thumb_date li i{
+	color: #A13F40;
+}
+.bhumi_tags a, .bhumi_cats a{
+	background-color:#edf0f2;
+}
+.bhumi_tags a:hover , .bhumi_cats a:hover{
+	color: #A13F40;
+    border-color: #A13F40;
+}
+.bhumi_tags a i, .bhumi_cats a i{
+	color:#A13F40;
+}
+.bhumi_tags a:hover i, .bhumi_cats a:hover i{
+	color:#fff;
+}
+.bhumi_blog_thumb_wrapper span a i{
+	color: #A13F40;
+}
+.bhumi_blog_thumb_wrapper span a {
+	color:#555;
+}
+.bhumi_blog_thumb_footer{
+    padding-bottom: 10px;
+    border-top: 1px solid #e2e2e2;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-bottom: -10px;
+    padding: 20px 16px 10px;
+    background: #f1f1f1;
+}
+.bhumi_blog_read_btn{
+	border: 1px solid #A13F40;
+	background-color:#A13F40;
+}
+.bhumi_blog_read_btn i {
+	margin-right:5px;
+}
+.bhumi_blog_read_btn:hover{
+	background-color:#ffffff;
+	color: #A13F40;
+}
+.bhumi_blog_read_btn a{
+    color:#ffffff;
+}
+.bhumi_blog_thumb_wrapper_showcase .bhumi_blog_thumb_wrapper_showcase_icons a {
+	background-color: #A13F40;
+	color: #fff;
+	-webkit-transition: all .25s ease-in;
+    -moz-transition: all .25s ease-in;
+    -o-transition: all .25s ease-in;
+    transition: all .25s ease-in;
+}
+.bhumi_blog_thumb_wrapper_showcase .bhumi_blog_thumb_wrapper_showcase_icons a:hover{
+	background-color: #ffffff;
+	color: #A13F40;
+}
+/********* Blog Full width css ********/
+.bhumi_post_date {
+	background: #A13F40;
+	color: #ffffff;
+}
+.bhumi_blog_comment:hover i, .bhumi_blog_comment:hover h6{
+	color:#A13F40;
+}
+.bhumi_full_blog_detail_padding h2 a ,.bhumi_full_blog_detail_padding h2{
+	color:#A13F40;
+}
+.bhumi_full_blog_detail_padding h2  a:hover{
+	color:#A13F40;
+}
+/*** blog sidebar css **/
+.bhumi_recent_widget_post h3 a {
+	color:#A13F40;
+}
+.bhumi_sidebar_widget {
+	background-color:#ffffff;
+}
+.bhumi_sidebar_widget_title{
+	background:#333;
+}
+.bhumi_sidebar_link p a:hover,
+.bhumi_sidebar_widget ul li a:hover {
+	color: #A13F40;
+}
+.bhumi_widget_tags a , .tagcloud a {
+	background-size: 100% 200%;
+	background-color:#edf0f2;
+    background-image: linear-gradient(to bottom, #edf0f2 50%, #A13F40 50%);
+}
+.bhumi_widget_tags a:hover , .tagcloud a:hover {
+	border: 1px solid #A13F40;
+	background-color:#A13F40;
+	background-position: 0 -100%;
+	color: #ffffff;
+}
+.bhumi_sidebar_widget .input-group{
+    padding: 0 1.5em;
+    display: block;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+/** blog detail **/
+.bhumi_author_detail_wrapper{
+	background: #A13F40;
+	padding:15px;
+	margin-bottom:40px;
+}
+.bhumi_author_detail_wrapper{
+	border-left:2px solid #A13F40;
+}
+/** blog  form input css **/
+.reply a {
+	color: #A13F40;
+}
+.bhumi_con_input_control:focus, .bhumi_con_textarea_control:focus,
+.bhumi_contact_input_control:focus, .bhumi_contact_textarea_control:focus {
+  border-color: #A13F40;
+  -webkit-box-shadow: inset 0 0px 0px #A13F40, 0 0 5px #A13F40;
+          box-shadow: inset 0 0px 0px #A13F40, 0 0 5px #A13F40;
+}
+.bhumi_send_button , #bhumi_send_button{
+	border-color: #A13F40;
+	color: #6a6a6a;
+	background-color:#ffffff;
+   -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+}
+.bhumi_send_button:hover ,#bhumi_send_button:hover{
+    border: 1px solid #A13F40;
+	color: #ffffff;
+	background-color:#A13F40;
+}
+
+.bhumi_blog_pagi a {
+	border: 1px solid #dbdbdb;
+	background-color: #ffffff;
+   -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+	color: #777777;
+}
+.bhumi_blog_pagi a:hover,
+.bhumi_blog_pagi a:focus,
+.bhumi_blog_pagi a.active{
+    border-color: #A13F40;
+    background: #fff;
+    color: #A13F40;
+}
+.error404 .bhumi_sidebar_widget a.bhumi_send_button
+{
+    margin: 6% 0 0 17%;
+}
+/****** Testimonial css *******************************************
+****************************************************************/
+.bhumi_testimonial_area i{
+	color:#A13F40;
+}
+.bhumi_testimonial_area img{
+	border: 10px solid #A13F40;
+}
+.pager a{
+	background: #fff;
+	border: 2px solid #A13F40;
+}
+.pager a.selected{
+	background: #A13F40;
+	border: 2px solid #A13F40;
+}
+/**** Client Css *************************************************
+****************************************************************/
+.bhumi_client_wrapper:hover {
+	border: 4px solid #A13F40;
+
+}
+.bhumi_client_prev, .bhumi_client_next {
+    background-color: #fff;
+	border: 2px solid #A13F40;
+}
+.bhumi_client_prev:hover, .bhumi_client_next:hover {
+    background-color: #A13F40;
+	color:#fff;
+}
+.bhumi_client_prev:hover i, .bhumi_client_next:hover i{
+    color:#fff;
+}
+
+.bhumi_carousel-prev i,
+.bhumi_carousel-next i {
+	color: #A13F40;
+}
+/**** About us page Css *************************************************
+****************************************************************/
+.bhumi_team_showcase .bhumi_team_showcase_icons a {
+	background-color: #A13F40;
+	border:2px solid #A13F40;
+	color:#fff;
+}
+
+.bhumi_team_showcase .bhumi_team_showcase_icons a:hover{
+	background-color: #ffffff;
+	border:2px solid #A13F40;
+	color:#A13F40;
+}
+
+.bhumi_team_caption:hover{
+    background: #A13F40;
+}
+.bhumi_team_caption:hover  h3 a ,.bhumi_team_caption:hover  small{
+   color: #ffffff;
+}
+
+.bhumi_team_wrapper:hover .bhumi_team_caption{
+ background: #A13F40;
+}
+.bhumi_team_wrapper:hover .bhumi_team_caption  h3 ,.bhumi_team_wrapper:hover .bhumi_team_caption  small{
+ color: #ffffff;
+}
+/***** Call Out Section *****************************************************************
+***************************************************************************************/
+.bhumi_callout_area {
+	background-color: #A13F40;
+
+}
+/***** Footer Area Css *****************************************************************
+***************************************************************************************/
+.bhumi_footer_area{
+	background: #A13F40;
+	border-top: 0px solid #6B6B6B;
+}
+/***** Contact Info Css *****************************************************************
+***************************************************************************************/
+.bhumi_contact_info li .desc {
+	color: #A13F40;
+}
+/***** Shortcode  Css *****************************************************************
+***************************************************************************************/
+/*Dropcaps Styles*/
+.bhumi_dropcape_square span {
+	background-color: #A13F40;
+    color: #FFFFFF;
+}
+.bhumi_dropcape_simple span {
+    color: #A13F40;
+}
+.bhumi_dropcape_circle span {
+	background-color: #A13F40;
+    color: #FFFFFF;
+}
+/*** breadcum style css **/
+.breadcrumb li a {
+color: #A13F40 !important;
+}
+/** progress bar or nav button css */
+.progress-bar {
+	background-color: #A13F40 !important;
+}
+.btn-search{
+	background:#A13F40 !important;
+}
+.nav-pills > li  > a{
+	border: 3px solid #A13F40 !important;
+	background-size: 100% 200%;
+    background-image: linear-gradient(to bottom, #fff 50%, #A13F40 50%) !important;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+	background-image: linear-gradient(to bottom, #A13F40 50%, #A13F40 50%) !important;
+	background-color:#A13F40;
+}
+.nav-stacked > li  > a
+{
+	border: 3px solid #A13F40 !important;
+	background-size: 100% 200%;
+    background-image: linear-gradient(to bottom, #fff 50%, #A13F40 50%) !important;
+ }
+ .nav-stacked > li.active > a, .nav-stacked > li.active > a:hover, .nav-stacked > li.active > a:focus {
+	background-image: linear-gradient(to bottom, #A13F40 50%, #A13F40 50%) !important;
+	background-color:#A13F40;
+}
+
+
+.navbar-toggle {
+background-color: #A13F40 !important;
+border: 1px solid #A13F40 !important;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+background-color: #A13F40 !important;
+}
+.bhumi_blockquote_section blockquote {
+border-left: 5px solid #A13F40 ;
+}
+#wp-calendar caption {
+background-color: #A13F40;
+color: #ffffff;
+padding: 10px;
+}
+#wp-calendar thead tr th {
+text-align: center;
+}
+table th {
+border: 1px solid #dddddd;
+padding: 8px;
+line-height: 20px;
+text-align: center;
+vertical-align: top;
+}
+table td {
+border: 1px solid #dddddd;
+padding: 8px;
+line-height: 20px;
+text-align: center;
+vertical-align: top;
+}
+table td {
+border: 1px solid #dddddd;
+padding: 8px;
+line-height: 20px;
+text-align: center;
+vertical-align: top;
+}
+#wp-calendar tbody tr td {
+text-align: center;
+}
+#wp-calendar tr th {
+    border: 1px solid rgba(0,0,0,0.2);
+    border-right: 0;
+    border-bottom: 0;
+}
+#wp-calendar tr th:last-child {
+    border-right: 1px solid rgba(0,0,0,0.2);
+}
+#wp-calendar tr td {
+    border: 1px solid rgba(0,0,0,0.2);
+    border-right: 0;
+    border-bottom: 0;
+}
+#wp-calendar tr td a{
+	font-weight: bold;
+}
+#wp-calendar tr td:last-child{
+	border-right: 1px solid rgba(0,0,0,0.2);
+}
+#wp-calendar tfoot tr td{
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.bhumi_footer_widget_column ul li a ,.bhumi_footer_widget_column ul#recentcomments li {color: #f2f2f2;}
+.bhumi_footer_widget_column ul li a:hover{color: #D15153;}
+.bhumi_callout_area a:hover{background-color:#2c3e50;}
+.error_404 h2{font-size:99px;} 

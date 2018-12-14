@@ -1,0 +1,66 @@
+
+    .author-title i, .author-bio .icons a:hover, a, .navbar-default .navbar-nav>li>a,
+    #header .dropdown-menu> li > a:hover, .comment-reply-link, #submit, .captura .icon-fa-arrow-down{
+        color: #4878a8 !important;
+    }
+
+    #top-aviso, .widget-paginas a.destaque, .widget-paginas a.destaque:hover,
+    .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus,
+    .readmore:hover, a.page-numbers:hover, span.page-numbers, .navbar-default .navbar-nav>li>a:hover,
+    .navbar-nav>li>.dropdown-menu, .comment-reply-link:hover, #submit:hover,
+    .captura .submit-captura, .captura-artigos .submit-captura, .navbar-nav .open .dropdown-menu, .current{
+        background: #4878a8 !important;
+    }
+
+    .navbar-nav .open .dropdown-menu{
+        color: white !important;
+    }
+
+    .author-bio, #footer{
+        border-bottom-color: #4878a8 !important;
+    }
+
+    .comment-reply-link, #submit, .submit-captura:hover{
+        border-color: #4878a8 !important;
+    }
+
+    /* COR SECUNDÁRIA*/
+
+    .readmore, a.page-numbers, span.page-numbers, .captura, .btn1, .btn1:hover{
+        background-color: #70c7ef !important;
+    }
+
+    a:hover{
+        color: #70c7ef !important;
+    }
+
+    .widget-paginas a.destaque{
+        border-bottom: 6px solid #70c7ef !important;
+    }
+
+    span.current{
+        background: #4878a8 !important;
+    }
+    
+    /* COR TERCIARIA */
+    
+    .author-bio, #secondary .widget, #footer, .captura-artigos{
+        background: #e2e7e9 !important;
+    }
+    
+    /* COR QUARTENARIA */
+    
+    #secondary .widget h3, .widget-paginas a:hover{
+        background: #d0d9dc !important;
+    }
+    
+    .widget-paginas a, .captura-artigos, .widget .redes-sociais a, .widget_bioautor{
+        border-color: #d0d9dc !important;
+    }
+
+    #top-aviso .btn, .read-more a, .bio-autor a, .widget-paginas a.destaque, .nav a:hover,
+    .navbar-default .navbar-nav>li>a:hover, #header .dropdown-menu> li > a:hover,
+    .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus, .btn-primary,
+    a.share-popup, #header .dropdown-menu> li > a{
+        color: white !important;
+    }

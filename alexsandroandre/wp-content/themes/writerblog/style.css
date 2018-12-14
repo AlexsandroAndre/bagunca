@@ -1,0 +1,313 @@
+/*
+Theme Name: writerBlog
+Theme URI: http://themeisle.com/themes/amadeus
+Author: Themeisle
+Author URI: http://themeisle.com
+Template: amadeus
+Description: writerBlog is a free minimal blogging WordPress theme from ThemeIsle. Is responsive and compatible with a wide range of plugins like : Nivo Slider, Siteorigin Page Builder, WooCoomerce, Photo Gallery Grid and Contact Form 7.
+Version: 1.6
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
+Text Domain:  writerblog
+Tags: custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+*/
+
+body {
+    font-family: 'Lato';
+}
+
+.site-title {
+	font-size: 20px !important;
+}
+
+.site-description {
+	font-size: 15px;
+	margin: 10px 0px 0px 10px;
+}
+
+.site-branding {
+    float: left;
+	padding: 15px 0 15px !important;
+}
+
+nav#site-navigation {
+    clear: none;
+    float: right;
+    width: auto;
+    border-bottom: 0 none;
+    position: relative;
+	z-index: 999999;
+}
+
+.branding-wrapper .container {
+    position: relative;
+}
+
+.header-scroll { display: none; }
+
+.main-navigation a {
+    color: #7c7c7c;
+    text-transform: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.main-navigation a:hover {
+	color: #ea7e3d;
+	text-decoration: none;
+}
+.main-navigation .current_page_item > a, .main-navigation .current-menu-item > a, .main-navigation .current_page_ancestor > a {
+	color: #ea7e3d;
+	text-decoration: none;
+}
+.main-navigation li {
+	border: 0 none;
+}
+body:not(.custom-background) div#page {
+    background-color: #f9f9f9;
+}
+.hentry,
+.widget-area .widget {
+	border: 0 none;
+}
+.hentry {
+	position: relative;
+}
+.top-category {
+	padding: 20px 30px;
+	color: #fff;
+	left: 0;
+	top: 0;
+	z-index: 1;
+    position: relative;
+    float: left;
+    margin-bottom: -150px;
+}
+.top-category a {
+	color: #fff;
+}
+article.hentry:not(.has-post-thumbnail) .top-category, 
+article.hentry.amadeus-image-hidden .top-category {
+    margin-top: -50px;
+    margin-bottom: 30px;
+}
+article:nth-child(2n) .top-category {
+	background: #50b6d0;
+}
+article:nth-child(2n+1) .top-category {
+	background: #fe886d;
+}
+h1.entry-title {
+    font-family: "Lato";
+    font-weight: 900;
+    font-size: 34px;
+}
+.entry-meta .author {
+    margin-left: 0;
+}
+.entry-meta .posted-on:after,
+.entry-meta .author:after {
+    display: none;
+}
+span.posted-on {
+    margin-left: 20px;
+}
+.entry-meta a {
+	font-family: "Lato";
+    font-weight: 300;
+}
+
+/*.single .content-area {
+    width: 960px;
+    margin: 0 auto;
+    float: none;
+}*/
+
+.single-thumb img {
+    width: 100%;
+    height: auto;
+}
+
+.entry-content {
+	font-family: "Lato";
+	font-weight: 400;
+    font-size: 15px;
+    line-height: 2;
+}
+
+    .entry-content a {
+        color: #ff7f66;
+        text-decoration: underline;
+    }
+
+    .entry-content p + p {
+        margin-bottom: 20px;
+    }
+
+    .entry-content img.size-full {
+        margin: 30px auto;
+    }
+article.hentry:not(.has-post-thumbnail), article.hentry.amadeus-image-hidden {
+    padding-top: 50px;
+}
+.photo-wrapper {
+	border: 0 none;
+}
+.widget-area .widget-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Lato";
+}
+.widget-area .amadeus_about .widget-title:after {
+	display: none;
+}
+.widget-area .widget-title:after {
+	background-color: #ff7f66;
+	width: 60px;
+}
+.widget-area .widget.amadeus_video_widget {
+	padding: 0;
+}
+.widget-area .widget.widget_search {
+    background: #ff7f66;
+}
+.widget-area .widget.widget_search form label {
+	width: 100%;
+}
+.posts-navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.posts-navigation ul li {
+	display: inline-block;
+	padding: 0 20px;
+}
+.posts-navigation ul li:first-child {
+	padding-left: 0;
+}
+.posts-navigation ul li:last-child {
+	padding-right: 0;
+}
+.posts-navigation ul li a{
+	font-family: "Lato";
+	color: #777777;
+	font-weight: 400;
+	font-size: 20px;
+}
+.posts-navigation ul li a:hover,
+.posts-navigation ul li.active a,
+.posts-navigation ul li a:focus {
+	color: #ff7f66;
+	text-decoration: none;
+}
+.footer-widget-area .widget-title {
+	text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Lato";
+    position: relative;
+    padding-bottom: 15px;
+}
+.footer-widget-area .widget-title:after {
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 60px;
+    background-color: #ff7f66;
+    content: '';
+}
+.arrow-right {
+	width: 0;
+	height: 0;
+	border-top: 60px solid transparent;
+	border-bottom: 60px solid transparent;
+	border-left: 60px solid green;
+}
+
+.top-category:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 0 solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 60px solid #50b6d0;
+    position: absolute;
+    top: 15px;
+    transform: rotate(-90deg);
+    right: -45px;
+}
+
+article:nth-child(2n+1) .top-category:before {
+	border-left-color: #fe886d;
+}
+a:hover {
+	text-decoration: none !important;
+}
+
+
+/*
+*   Archive Blog Posts
+*/
+
+/* Cat links */
+.cat-links { padding-left: 10px; }
+
+/* More tag */
+.moretag a { text-decoration: none; }
+
+/* Widgets: Categories; changing icon */
+.widget_categories li::before {
+    content: '\f178';
+    color: #ff7f66;
+}
+
+/*
+*   Single Blog Post
+*   Author Area
+*/
+.amadeus-child-author-entry-footer {
+    border-top: 1px solid #f4f4f4;
+    padding: 80px 0;
+}
+
+.amadeus-child-author-avatar img {
+    border-radius: 50%;
+    text-align: center;
+}
+
+.amadeus-child-author-title { margin-bottom: 25px; }
+.amadeus-child-author-title span {
+    font-size: 15px;
+    color: #777777;
+    font-family: 'Lato';
+    padding-right: 10px;
+}
+
+.amadeus-child-author-title a {
+    color: #fe886d !important;
+    font-family: 'Lato';
+    font-size: 15px;
+    padding-left: 10px;
+    text-transform: capitalize;
+}
+
+.amadeus-child-author-bio {
+    color: #777777;
+    font-family: 'Lato';
+    font-style: italic;
+    line-height: 2;
+}
+@media (max-width: 1024px) {
+    .site-branding {
+        float: none;
+    }
+    .branding-wrapper .container {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+}
